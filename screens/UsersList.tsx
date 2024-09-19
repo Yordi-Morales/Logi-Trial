@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import { View, StyleSheet } from "react-native";
-import AllUserList from "../components/AllUserList";
+import { NavigationProp } from "@react-navigation/native";
+
 import { iUser } from "../interfaces/iUser";
 import { fetchUsers } from "../services/user.service";
+
+import AllUserList from "../components/AllUserList";
 import SearchInput from "../components/UI/SearchInput";
-import { NavigationProp } from "@react-navigation/native";
 import Colors from "../constants/colors";
 
 interface UserListProps {

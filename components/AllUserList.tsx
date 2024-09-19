@@ -2,7 +2,6 @@ import { View, FlatList, StyleSheet, TouchableOpacity } from "react-native";
 import { iUser } from "../interfaces/iUser";
 import { iAllUserListProps } from "../interfaces/iAllUserListProps";
 import UserInfo from "../components/UserInfo";
-import Colors from "../constants/colors";
 
 const AllUserList = (props: iAllUserListProps) => {
   const { navigation } = props;

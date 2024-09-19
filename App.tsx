@@ -1,9 +1,10 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import UsersList from "./screens/UsersList";
-import UserDetails from "./screens/UserDetail"; // Un ejemplo de otra pantalla
-import Colors from "./constants/colors";
 import { Ionicons } from "@expo/vector-icons";
+
+import UsersList from "./screens/UsersList";
+import UserDetails from "./screens/UserDetail"; 
+import Colors from "./constants/colors";
 
 const Stack = createStackNavigator();
 
